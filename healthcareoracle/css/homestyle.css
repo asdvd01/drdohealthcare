@@ -1,0 +1,149 @@
+body{
+	overflow-x:hidden;margin:0; padding:0;
+}
+@font-face { 
+	font-family: Jenna Sue; 
+		src: url('../fonts/JennaSue-webfont.eot'); 
+		src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf'); 
+} 
+
+@font-face { 
+	font-family: News Cycle; 
+		src: url('../fonts/NewsCycle-Regular.eot'); 
+		src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+header { 
+	width: 100%;
+	height: 135px;
+	background: #145B8D;
+	 background: -moz-linear-gradient(#33D2FF, #145B8D);
+	 background: -o-linear-gradient(#33D2FF, #145B8D);
+	 background: -webkit-linear-gradient(#33D2FF, #145B8D);
+}
+
+#logo { 
+	width: 200px;
+	float: left;
+	height: 100px;
+	background: transparent;
+	margin-top:-7px;
+	margin-left:50px;
+	
+}
+
+
+
+nav { 
+	height: 80px;
+	width: 750px;
+	margin-right:150px;
+	float: right;
+	padding: 35px 0 20px 0;
+} 
+
+/* from here: http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers */
+.lavaLampWithImage {
+	position: relative;
+	height: 100px;width:700px;
+	padding: 0 5px 15px 0;
+	margin: 35px 0 0 0;margin-right:-300px;
+	overflow: hidden;
+	float: right;
+
+
+}
+
+.lavaLampWithImage li {
+	float: left;
+	list-style: none;
+	max-width: auto
+}
+
+.lavaLampWithImage li.back {
+	background: #33D2FF;
+	height: 30px;
+	margin-top: 8px;
+	z-index: 8;
+	position: absolute;
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border: 7px 7px 7px 7px; 
+}
+
+.lavaLampWithImage li a {
+	font: normal 95% 'News Cycle', sans-serif;
+	text-shadow: none;
+	text-decoration: none;
+	color: #FFF;
+	outline: none;
+	text-align: center;
+	letter-spacing: 0;
+	z-index: 10;
+	display: block;
+	float: left;
+	line-height: 35px;
+	
+	position: relative;
+	overflow: hidden;
+	margin: auto 16px; 
+
+	height: 20px;
+width:auto;
+z-index: 8;padding-right: 10px;padding-left: 10px;
+padding-bottom:10px;
+border-radius: 7px;   
+}
+
+.lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
+	border: none;
+	background:#33D2FF;
+height: 20px;
+margin: auto 16px;width:auto;
+z-index: 8;padding-right: 10px;padding-left: 10px;
+padding-bottom:15px;
+border-radius: 7px;
+}
+#lava_menu{
+		height:30px;
+	}
+	#lava_menu a{
+ 
+	}
+	 ul#lava_menu ul{
+		display:none;
+	position:absolute;margin-left:-60px;
+	z-index:10000;margin-top:35px;
+	height:100px;width:100px;
+	 }
+		ul#lava_menu #dropdown:hover ul{
+		 display:block;
+	 }
+		nav:hover #lava_menu{
+		height:248px;
+	}
+	 
+	 #lidropdown{
+		 background:#197CBF;padding-top:3px;
+	 padding-bottom:3px;width:120px;height:30px;
+	 padding-left:0px;
+	 margin-top:-0.5px;border-radius: 0px;
+
+	
+	 
+	 
+	 }
+
+	 #lidropdown:hover{
+	 background:#16ACD1;box-shadow:0.5px 0.5px  3px black inset;
+	 }
+	
+		#dropdown{
+	padding-right:5px;
+	}
+	 #ddown li{
+	 margin-bottom:1px;
+	 }
+	 li .back .left{
+		width:80px;
+	 }

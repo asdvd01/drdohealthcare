@@ -1,0 +1,63 @@
+body{
+	overflow :hidden;
+}
+#changepassformid
+{
+    margin-left:380px;
+	margin-top:100px;
+}
+#uidinput
+{
+    height:30px;
+	border-radius:4px;
+	padding-left:5px;
+	font-size:18px;
+	border: 2px solid #DEE1E1;
+}
+#uid
+{
+    padding-right:180px;
+}
+#np
+{
+     padding-right:114px;
+}
+#cnp
+{
+     padding-right:75px;
+}
+#cpsubb
+{
+     
+	 width:130px;
+	 height:34px;
+	 cursor:hand;
+     margin-left:130px;
+	 margin-top:44px;
+	 font-size:20px;
+}
+#mobid
+{
+    padding-right:110px;
+}
+#uname
+{
+     padding-right:150px;
+}
+#p
+{
+     padding-right:154px;
+}
+#previledge
+{
+     padding-right:133px;
+}
+#prevselect
+{
+    width:227px;
+    height:30px;
+	border-radius:4px;
+	padding-left:35px;
+	font-size:18px;
+	border: 2px solid #DEE1E1;
+}

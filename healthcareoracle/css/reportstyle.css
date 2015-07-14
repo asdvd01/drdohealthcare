@@ -1,0 +1,187 @@
+body
+{
+    background-color:F2E086;
+}
+#head
+{
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+	font-size: 33px;
+	line-height: 26.3999996185303px;
+	text-align :center;
+	margin-top:40px;
+}
+#date
+{
+    margin-left:1000px;
+	font-size:18px;
+	font-style:bold;
+	font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+}
+#div1
+{
+    border:2px;
+	margin-left:210px;
+	
+}
+#hrid
+{
+   height:5px;
+   width:1000px;   
+}
+#tableheader
+{
+	 text-align:center;
+	 color:blue;
+	 
+}
+#table1
+{
+	 margin-right:70px;
+	 margin-top:30px;
+	 border: 1px solid black;
+	 padding-top:20px;
+	 padding-bottom:20px;
+	 padding-left:0px;
+	 padding-right:20px;
+	 
+}
+#th1
+{
+     width:50px;
+	 font-size:22px;
+	 border:2px;
+}#th2
+{   
+     width:250px;
+	 border:2px;
+}#th3
+{    text-align:center;
+     width:150px;
+	 border:2px;
+}#th4
+{   text-align:center;
+     width:350px;
+	 border:2px;
+}
+#sno
+{
+     padding-left:20px;
+	 padding-top:10px;
+	 font-size:18px;
+     font-weight:500;
+}
+#medname
+{
+     padding-left:80px;
+	 font-size:18px;
+     font-weight:500;
+}
+#medq
+{
+     padding-left:90px;
+	 font-size:18px;
+     font-weight:500;
+}
+#medp
+{  
+     text-align:center;
+	 font-size:18px;
+     font-weight:500;
+}
+#meda
+{
+     padding-left:60px;
+	 font-size:18px;
+     font-weight:500;
+}
+#medam{
+    padding-left:40px;
+	 font-size:18px;
+     font-weight:500;
+      
+}
+#totalid
+{
+     margin-left:910px;
+	 margin-top:120px; 
+	 font-size:17px;
+     font-weight:900;
+}
+#sign
+{
+     margin-left:210px;
+	 font-size:17px;
+     font-weight:900;
+}
+#printbutton
+{
+     margin-left:600px;
+	 margin-top:40px;position:absolute;
+	 width:120px; 
+	 background-color:38A145;
+	 color:white;
+	 padding-top:4px;
+	 padding-bottom:4px;
+	 box-shadow:none;
+	 border:none;
+	 border-radius:6px;
+	 cursor:hand;
+	 box-shadow:1px 1px 5px black;
+}
+#printbutton:hover
+{    box-shadow:0.3px 0.3px 5px grey;
+     background-color:#23662B;
+}
+#cancelbutton{
+     margin-left:740px;
+	 margin-top:40px;
+	 width:120px;
+	 background-color:38A145;
+	 color:white;position:absolute;
+	 padding-top:4px;
+	 padding-bottom:4px;
+	 box-shadow:none;
+	 border:none;
+	 border-radius:6px;
+	 cursor:hand;
+	 box-shadow:1px 1px 5px black;
+	 text-decoration: none;
+	 text-align: center;
+
+}
+#cancelbutton:hover
+{    box-shadow:0.3px 0.3px 5px grey;
+     background-color:#23662B;
+}
+#cancelbuttonempty{
+     margin-left:640px;
+	 margin-top:340px;
+	 width:120px;
+	 background-color:38A145;
+	 color:white;
+	 padding-top:4px;
+	 padding-bottom:4px;position:absolute;
+	 box-shadow:none;
+	 border:none;
+	 border-radius:6px;
+	 cursor:hand;
+	 box-shadow:1px 1px 5px black;
+	  text-decoration: none;
+	 text-align: center;
+
+
+}
+#cancelbuttonempty:hover
+{    box-shadow:0.3px 0.3px 5px grey;
+     background-color:#23662B;
+}
+#buttons{
+  margin-left:300px;position:absolute;
+}
+#cm
+{
+    text-align:center;  
+}
+body{
+    overflow-x:hidden;
+}

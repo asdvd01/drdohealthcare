@@ -1,0 +1,69 @@
+body
+{
+	overflow: hidden;
+}
+#editform
+{
+     margin-left:400px;
+	 font-size:20px;
+	 line-height:40px;
+}
+#mname
+{
+    padding-right:200px;
+	
+}
+#price
+{
+    padding-right:210px;
+}
+#quant
+{
+    padding-right:178px;
+}
+#edate
+{
+    padding-right:152px;
+}
+#mdate
+{
+    padding-right:93px;
+	
+}
+#cmp
+{
+    padding-right:171px;
+}
+#bno
+{
+    padding-right:132px;
+}
+#vol
+{
+    padding-right:184px;
+}
+#xid
+{
+     border-radius:5px;
+	 border:1px solid #BEDADF;
+	 height:30px;
+	 padding-left:10px;
+}
+#editbuttonid
+{
+     background-color:19A3D1;
+	 border-radius:5px;
+	 border:1px solid #297ACC;
+	 width:150px;
+	 height:30px;
+	 color:white;
+	 font-size:20px;
+	 margin-left:180px;
+	 margin-top:40px;
+}
+#editbuttonid:hover
+{
+    background-color:#009933;
+	border-color:#009933;
+	
+}

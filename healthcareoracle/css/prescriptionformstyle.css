@@ -1,0 +1,93 @@
+body{
+  font-family: "Arial Verdana",Arial,sans-serif;
+}
+#pbox{
+  border:1px solid #9ecaed;
+	 width:1000px;height:auto;
+      
+	  margin-left:180px;
+	  margin-top:0px;
+	  background-image:url("a4.png");
+	  box-shadow: 0px 5px  7px grey ;
+}
+#names{
+    margin-left:110px;
+}
+#ppl{
+  margin-left:405px;
+}
+#bppl{
+  margin-left:455px;
+}
+#ob{
+margin-left:450px;
+}
+#ob1{
+margin-left:310px;
+}
+#addbut{
+   margin-left:520px;
+}
+#pbut{
+   margin-top:20px;margin-bottom:10px;
+   margin-left:470px;
+}
+#dat{
+    float:left;margin-left:115px;
+}
+#dd{
+   text-decoration:underline;color:green;margin-left:450px;
+}
+#det{
+  text-align:left;
+  margin-left:115px;
+}
+#l{
+    float:left; width:300px;
+}
+.ind{
+    height:30px;width:300px;border-bottom:none;
+    margin-left:50px;
+     font-family: "Arial Verdana",Arial,sans-serif;
+     font-size: 16;
+}
+
+#table{
+   
+   margin-left:115px;
+   text-align:center;
+    border-collapse: collapse;
+	
+}
+#medic{
+     width:310px;
+}
+#sno{
+   width:50px;
+}
+
+#quanti{
+   width:62px;
+}
+#dos{
+  width:50px;
+}
+#billiq{
+   width:120px;
+}
+.inpu{
+    border-bottom:none;height:30px;
+     font-family: "Arial Verdana",Arial,sans-serif;
+     font-size: 16;
+}
+@media print {
+    #pbox {
+      
+        height: 100%;
+        width: 100%;
+      margin-left:80px;
+    }
+}
+body{
+overflow-x:hidden;
+}
